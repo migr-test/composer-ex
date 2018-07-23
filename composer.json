@@ -1,0 +1,21 @@
+{
+    "name": "migr/composer-example-parse",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "John1 Smith1",
+            "email": "john1@example.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "migr\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
